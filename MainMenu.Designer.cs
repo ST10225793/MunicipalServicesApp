@@ -35,8 +35,9 @@ namespace MunicipalServicesApp
             this.pnlHeader.Controls.Add(this.lblHeaderTitle);
             this.pnlHeader.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlHeader.Location = new System.Drawing.Point(0, 0);
+            this.pnlHeader.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.pnlHeader.Name = "pnlHeader";
-            this.pnlHeader.Size = new System.Drawing.Size(684, 100);
+            this.pnlHeader.Size = new System.Drawing.Size(912, 123);
             this.pnlHeader.TabIndex = 0;
             // 
             // lblHeaderSubtitle
@@ -44,20 +45,23 @@ namespace MunicipalServicesApp
             this.lblHeaderSubtitle.AutoSize = true;
             this.lblHeaderSubtitle.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeaderSubtitle.ForeColor = System.Drawing.Color.White;
-            this.lblHeaderSubtitle.Location = new System.Drawing.Point(190, 58);
+            this.lblHeaderSubtitle.Location = new System.Drawing.Point(253, 71);
+            this.lblHeaderSubtitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHeaderSubtitle.Name = "lblHeaderSubtitle";
-            this.lblHeaderSubtitle.Size = new System.Drawing.Size(304, 20);
+            this.lblHeaderSubtitle.Size = new System.Drawing.Size(383, 25);
             this.lblHeaderSubtitle.TabIndex = 1;
             this.lblHeaderSubtitle.Text = "Integrated South African Citizen Portal (PoE)";
+            this.lblHeaderSubtitle.Click += new System.EventHandler(this.lblHeaderSubtitle_Click);
             // 
             // lblHeaderTitle
             // 
             this.lblHeaderTitle.AutoSize = true;
             this.lblHeaderTitle.Font = new System.Drawing.Font("Segoe UI Semibold", 20.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblHeaderTitle.ForeColor = System.Drawing.Color.White;
-            this.lblHeaderTitle.Location = new System.Drawing.Point(145, 18);
+            this.lblHeaderTitle.Location = new System.Drawing.Point(193, 22);
+            this.lblHeaderTitle.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblHeaderTitle.Name = "lblHeaderTitle";
-            this.lblHeaderTitle.Size = new System.Drawing.Size(394, 37);
+            this.lblHeaderTitle.Size = new System.Drawing.Size(492, 46);
             this.lblHeaderTitle.TabIndex = 0;
             this.lblHeaderTitle.Text = "Municipal Services Application";
             // 
@@ -66,9 +70,10 @@ namespace MunicipalServicesApp
             this.lblInstructions.AutoSize = true;
             this.lblInstructions.Font = new System.Drawing.Font("Segoe UI", 11.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblInstructions.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(44)))), ((int)(((byte)(62)))), ((int)(((byte)(80)))));
-            this.lblInstructions.Location = new System.Drawing.Point(180, 130);
+            this.lblInstructions.Location = new System.Drawing.Point(240, 160);
+            this.lblInstructions.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblInstructions.Name = "lblInstructions";
-            this.lblInstructions.Size = new System.Drawing.Size(324, 20);
+            this.lblInstructions.Size = new System.Drawing.Size(428, 25);
             this.lblInstructions.TabIndex = 1;
             this.lblInstructions.Text = "Please select a municipal service task from below:";
             // 
@@ -79,9 +84,10 @@ namespace MunicipalServicesApp
             this.btnReportIssues.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnReportIssues.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnReportIssues.ForeColor = System.Drawing.Color.White;
-            this.btnReportIssues.Location = new System.Drawing.Point(192, 175);
+            this.btnReportIssues.Location = new System.Drawing.Point(256, 215);
+            this.btnReportIssues.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnReportIssues.Name = "btnReportIssues";
-            this.btnReportIssues.Size = new System.Drawing.Size(300, 55);
+            this.btnReportIssues.Size = new System.Drawing.Size(400, 68);
             this.btnReportIssues.TabIndex = 2;
             this.btnReportIssues.Text = "1. Report Issues";
             this.btnReportIssues.UseVisualStyleBackColor = false;
@@ -94,9 +100,10 @@ namespace MunicipalServicesApp
             this.btnLocalEvents.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLocalEvents.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnLocalEvents.ForeColor = System.Drawing.Color.White;
-            this.btnLocalEvents.Location = new System.Drawing.Point(192, 250);
+            this.btnLocalEvents.Location = new System.Drawing.Point(256, 308);
+            this.btnLocalEvents.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnLocalEvents.Name = "btnLocalEvents";
-            this.btnLocalEvents.Size = new System.Drawing.Size(300, 55);
+            this.btnLocalEvents.Size = new System.Drawing.Size(400, 68);
             this.btnLocalEvents.TabIndex = 3;
             this.btnLocalEvents.Text = "2. Local Events && Announcements";
             this.btnLocalEvents.UseVisualStyleBackColor = false;
@@ -109,9 +116,10 @@ namespace MunicipalServicesApp
             this.btnServiceStatus.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnServiceStatus.Font = new System.Drawing.Font("Segoe UI Semibold", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnServiceStatus.ForeColor = System.Drawing.Color.White;
-            this.btnServiceStatus.Location = new System.Drawing.Point(192, 325);
+            this.btnServiceStatus.Location = new System.Drawing.Point(256, 400);
+            this.btnServiceStatus.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnServiceStatus.Name = "btnServiceStatus";
-            this.btnServiceStatus.Size = new System.Drawing.Size(300, 55);
+            this.btnServiceStatus.Size = new System.Drawing.Size(400, 68);
             this.btnServiceStatus.TabIndex = 4;
             this.btnServiceStatus.Text = "3. Service Request Status";
             this.btnServiceStatus.UseVisualStyleBackColor = false;
@@ -122,19 +130,21 @@ namespace MunicipalServicesApp
             this.lblFooter.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.lblFooter.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.lblFooter.ForeColor = System.Drawing.Color.Gray;
-            this.lblFooter.Location = new System.Drawing.Point(0, 420);
+            this.lblFooter.Location = new System.Drawing.Point(0, 517);
+            this.lblFooter.Margin = new System.Windows.Forms.Padding(4, 0, 4, 0);
             this.lblFooter.Name = "lblFooter";
-            this.lblFooter.Size = new System.Drawing.Size(684, 30);
+            this.lblFooter.Size = new System.Drawing.Size(912, 37);
             this.lblFooter.TabIndex = 5;
-            this.lblFooter.Text = "Powered by C# .NET Framework & Advanced Data Structures | IIE PROG7312 / AAPD7112";
+            this.lblFooter.Text = "Powered by C# .NET Framework & Advanced Data Structures | IIE PROG7312 / AAPD7112" +
+    "";
             this.lblFooter.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // MainMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(236)))), ((int)(((byte)(240)))), ((int)(((byte)(241)))));
-            this.ClientSize = new System.Drawing.Size(684, 450);
+            this.ClientSize = new System.Drawing.Size(912, 554);
             this.Controls.Add(this.lblFooter);
             this.Controls.Add(this.btnServiceStatus);
             this.Controls.Add(this.btnLocalEvents);
@@ -142,6 +152,7 @@ namespace MunicipalServicesApp
             this.Controls.Add(this.lblInstructions);
             this.Controls.Add(this.pnlHeader);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
+            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.MaximizeBox = false;
             this.Name = "MainMenu";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;

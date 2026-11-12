@@ -30,5 +30,10 @@ namespace MunicipalServicesApp
             statusForm.Show();
             this.Hide();
         }
+
+        private void lblHeaderSubtitle_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
